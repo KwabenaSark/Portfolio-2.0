@@ -1,0 +1,11 @@
+Model Information:
+* title:	PS1 PSX High School Guy
+* source:	https://sketchfab.com/3d-models/ps1-psx-high-school-guy-d96f74f0dc6f49559083c110fef37e2f
+* author:	crimsongcat (https://sketchfab.com/crimsongcat)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PS1 PSX High School Guy" (https://sketchfab.com/3d-models/ps1-psx-high-school-guy-d96f74f0dc6f49559083c110fef37e2f) by crimsongcat (https://sketchfab.com/crimsongcat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
