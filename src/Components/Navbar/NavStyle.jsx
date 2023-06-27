@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const NavStyle = styled.div`
   backdrop-filter: blur(5px) saturate(100%);
   height: 3rem;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   z-index: 10;
   background: rgba(255, 255, 255, 0.1);
@@ -23,7 +23,7 @@ export const NavStyle = styled.div`
     justify-content:center;
     align-items: center;
     text-align:center;
-    gap:5%;
+    gap:5rem;
    
   
    
@@ -49,6 +49,35 @@ export const NavStyle = styled.div`
   a:hover {
     margin: 0px 12px 0px 12px;
     text-decoration: underline;
+  
+
+ 
+`;
+
+
+export const ImageContainer = styled.div`
+  /* Add your desired styling properties */
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  position: absolute;
+  z-index:80;
+  top:10%;
+  transition: all 0.3s ease-out;
+  
+  
+  
+
+ 
+  .Vid1{
+    position: absolute;
+    left:20%;
+    z-index:81;
+    width: 400px;
+    height: 200px;
+    visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+    transition-delay: 1.5s;
+    
   }
 
  
