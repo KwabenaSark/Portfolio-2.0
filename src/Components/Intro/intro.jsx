@@ -11,7 +11,7 @@ function Intro() {
 //animation 
   useEffect(() => {
     const ani = gsap.timeline({ defaults: { duration: 3 } });
-    ani.fromTo(introRef.current, { y: '250%' }, { y: '0%',delay: 2 });
+    ani.fromTo(introRef.current, { y: '350%',scale: 1.5 }, { y: '0%',scale: 1.5,delay: 2 });
   }
   , []);
 

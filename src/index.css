@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
 
+
+
 *{
 margin:0;
 padding:0;
@@ -21,7 +23,8 @@ background-color:rgb(255,203,231);
   }
  /* For WebKit-based browsers */
 ::-webkit-scrollbar {
-  width: 5px; /* Set the desired width for the scrollbar */
+  width: 5px;
+   /* Set the desired width for the scrollbar */
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +32,8 @@ background-color:rgb(255,203,231);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #888; /* Set the color of the scrollbar thumb */
+  background-color: #888; 
+  border-radius: 5rem;/* Set the color of the scrollbar thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -96,3 +100,4 @@ background-color:rgb(255,203,231);
     90% { transform:translate(-10%, 10%) }
   }
   
+

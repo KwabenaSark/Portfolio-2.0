@@ -74,9 +74,10 @@ export const ImageContainer = styled.div`
     left:20%;
     z-index:81;
     width: 400px;
-    height: 200px;
+    height: 180px;
     visibility: ${props => (props.visible ? 'visible' : 'hidden')};
-    transition-delay: 1.5s;
+    border-radius:2rem;
+    object-fit:cover;
     
   }
 

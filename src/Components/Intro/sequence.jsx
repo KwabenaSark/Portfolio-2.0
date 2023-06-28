@@ -7,7 +7,7 @@ const ChangeNumberSequence = () => {
     let timerId;
 
     const generateSequence = () => {
-      const numbers = '!@#$%^&*()';
+      const numbers = '!@,#"$%^&*()Hi,ImKwabena';
       let newSequence = '';
 
       if (Date.now() - startTime >= 2000) {
@@ -15,7 +15,7 @@ const ChangeNumberSequence = () => {
         return;
       }
 
-      for (let i = 0; i < 10; i++) {
+      for (let i = 0; i < 15; i++) {
         newSequence += numbers.charAt(Math.floor(Math.random() * numbers.length));
       }
 
@@ -34,7 +34,7 @@ const ChangeNumberSequence = () => {
   return (
     <div>
      
-        <p>{sequence}</p>
+        <p >{sequence}</p>
    
     </div>
   );

@@ -12,6 +12,7 @@ color: #0077b3;
   font-size:2.2rem;
   font-weight:bolder;
   width:100%;
+  font-family: 'Inconsolata', monospace;
  
   
   
@@ -22,8 +23,9 @@ color: #0077b3;
     display:flex;
     justify-content:center;
     display:flex;
-   
-    
+    font-family: 'Inconsolata', monospace;
+    font-weight:bolder;
+    -webkit-text-stroke: 1.3px ;
     
   }
 `;

@@ -11,7 +11,7 @@ const ProjectData = [
         earning multiple certificates along the way, solidifying my expertise and versatility :D.
       </>
     ),
-    Media: '.mp4',
+    Media: '.mp4', //assets/PreviewMedia/IMG_0375.mp4
   },
   {
     Title: 'Business Finance Tracker with A.I',
