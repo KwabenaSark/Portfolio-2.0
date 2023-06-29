@@ -71,11 +71,37 @@ export const ImageContainer = styled.div`
  
   .Vid1{
     position: absolute;
-    left:20%;
+    margin-left:20%;
     z-index:81;
-    width: 400px;
+    width: 310px;
     height: 180px;
-    visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+    display:flex;
+   
+
+    border-radius:2rem;
+    object-fit:cover;
+    
+  }
+
+  .Vid2{
+    position: absolute;
+    left:31rem;
+    z-index:81;
+    width: 260px;
+    height: 180px;
+
+    border-radius:2rem;
+    object-fit:cover;
+    
+  }
+
+  .Vid3{
+    position: absolute;
+    left:51rem;
+    z-index:81;
+    width: 200px;
+    height: 250px;
+
     border-radius:2rem;
     object-fit:cover;
     
@@ -83,6 +109,28 @@ export const ImageContainer = styled.div`
 
  
 `;
+
+export const Hover = styled.div`
+.Vid1{
+ 
+  visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+ 
+}
+
+.Vid2{
+ 
+  visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+ 
+  
+}
+
+.Vid3{
+ 
+  visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+ 
+  
+}
+`
 
 
 export default NavStyle;
