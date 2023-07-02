@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const NavStyle = styled.div`
   backdrop-filter: blur(5px) saturate(100%);
   height: 3rem;
-  width: 100vw;
+  width: 100%;
   position: fixed;
   z-index: 10;
   background: rgba(255, 255, 255, 0.1);
@@ -57,13 +57,14 @@ export const NavStyle = styled.div`
 
 export const ImageContainer = styled.div`
   /* Add your desired styling properties */
-  width: 100%;
+  width:100%;
   height: 200px;
   padding: 10px;
   position: absolute;
   z-index:80;
   top:10%;
   transition: all 0.3s ease-out;
+ 
   
   
   

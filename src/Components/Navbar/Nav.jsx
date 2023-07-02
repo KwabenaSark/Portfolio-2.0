@@ -3,12 +3,19 @@ import { Hover, ImageContainer, NavStyle } from './NavStyle.jsx';
 import gsap from 'gsap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
+
+
 function Nav() {
   const navRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+
+  const CvImage = "/PreviewMedia/cv.png";
+  const LinkedinImage ="/PreviewMedia/linkedin.mp4";
+  const GithubImage ="/PreviewMedia/github.mp4";
   //animation =useEffect
   useEffect(() => {
     const ani = gsap.timeline({ defaults: { duration: 1.5 } });
@@ -147,20 +154,20 @@ function Nav() {
           </li>
         </ul>
       </NavStyle>
-      <ImageContainer>
+      <ImageContainer style={{ display: window.innerWidth > 1000 ? "block" : "none" }}>
         <Hover visible={isHovered}>
           <video autoPlay loop muted className="Vid1">
-            <source src="assets/PreviewMedia/github.mp4" type="video/mp4" />
+            <source src={GithubImage} type="video/mp4" />
           </video>
         </Hover>
 
         <Hover visible={isHovered1}>
           <video autoPlay loop muted className="Vid2">
-            <source src="assets/PreviewMedia/linkedin.mp4" type="video/mp4" />
+            <source src={LinkedinImage} type="video/mp4" />
           </video>
         </Hover>
         <Hover visible={isHovered2}>
-          <img  className="Vid3"  src="assets/PreviewMedia/cv.png">
+          <img  className="Vid3"  src={CvImage}>
              
           </img>
         </Hover>

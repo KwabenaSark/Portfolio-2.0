@@ -137,7 +137,7 @@ function Apo() {
     // Load model
     const loader = new GLTFLoader();
     loader.load(
-      './assets/Cool/scene.gltf',
+      '/Cool/scene.gltf',
       (gltf) => {
         object = gltf.scene;
 

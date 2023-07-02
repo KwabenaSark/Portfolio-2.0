@@ -9,7 +9,7 @@ color: #0077b3;
   align-items: center;
   position: absolute;
   margin-top:80px;
-  font-size:2.2rem;
+  font-size:350%;
   font-weight:bolder;
   width:100%;
   font-family: 'Inconsolata', monospace;
