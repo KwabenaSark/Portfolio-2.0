@@ -143,7 +143,7 @@ function Nav() {
           <li>
             <a onMouseEnter={handleHover2}
               onMouseLeave={handleMouseLeave2}
-            href="/path/to/cv.pdf" target="_blank">
+            href="/PreviewMedia/KwabenasarkCV.pdf" target="_blank">
               <FontAwesomeIcon
                 icon="fa-solid fa-file"
                 target="_blank"

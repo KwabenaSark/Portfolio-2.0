@@ -23,7 +23,7 @@ const ProjectData = [
       </>
     ),
     Media: '.mp4',
-    Links:(<> <a href=''>Readme</a> <a href=''>Discover the Magic</a></>),
+    Links:(<> <a href='https://github.com/KwabenaSark/Fianance-Tracker-with-A.I#readme'>Readme</a> <a href='https://github.com/KwabenaSark/Fianance-Tracker-with-A.I#readme'>Discover the Magic</a></>),
   },
   {
     Title: 'Earth-1610',
@@ -35,7 +35,7 @@ const ProjectData = [
       </>
     ),
     Media: '.mp4',
-    Links:(<> <a href=''>Readme</a> <a href=''>Discover the Magic</a></>),
+    Links:(<> <a href='https://github.com/KwabenaSark/Earth-1610'>Readme</a> <a href='https://github.com/KwabenaSark/Earth-1610'>Discover the Magic</a></>),
   },
   {
     Title: 'Portfolio',
