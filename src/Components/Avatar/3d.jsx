@@ -215,13 +215,21 @@ function Apo() {
       render();
     };
 
-    const onWindowResize = () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    };
+    let resizeTimeout;
 
-    window.addEventListener('resize', onWindowResize);
+const onWindowResize = () => {
+  if (resizeTimeout) {
+    clearTimeout(resizeTimeout);
+  }
+  
+  resizeTimeout = setTimeout(() => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  }, 100); // Adjust the delay (in milliseconds) to your preference
+};
+window.removeEventListener('resize', onWindowResize);
+
     animate();
 
     return () => {
