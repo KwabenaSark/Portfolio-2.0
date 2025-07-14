@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 const ProjectData = [
   {
-    Title: 'Bsc Computing with Business Management',
-    Subtitle: 'Predicted first-class honours 2024',
+    Title: 'Bsc Computing',
+    Subtitle: 'First-class honours 2024',
     Description: (
       <>
-        This ongoing journey has been exceptional. I've gained diverse knowledge in tech and business,
+        This journey has been exceptional. I've gained diverse knowledge in tech and business,
         earning multiple certificates along the way, solidifying my expertise and versatility :D.
       </>
     ),
